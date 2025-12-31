@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import { supabase } from "./lib/supabase";
+import { supabase } from "./lib/supabaseClient";
 import QuestionsPage from "./components/QuestionsPage.vue";
 
 const mode = ref("form"); // form | done | list
